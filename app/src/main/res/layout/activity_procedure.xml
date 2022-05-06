@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".procedure">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Get And Access Our Courses?"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:id="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          1.  This video guides you about how to buy shivag online courses published on udemy. If you are beginners in computer software field, just follow this step and buy it any one of the course which will you like of tamil type writing course, English type writing, Word, Excel, Power point and Tally Erp with GST course for you bright future in computer field."
+        android:textColor="@color/teal_700"
+        android:layout_below="@+id/t1"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:textSize="21dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          2.  If you feel your son or daughter waste their time in pubg games and social media. Buy these course to improve their skill sets during this lock period. Now the offer rates are going on..buy the course as soon as possible because the offers only for limited periods"
+        android:textColor="@color/teal_700"
+        android:textSize="21dp"
+        android:layout_below="@+id/t1"
+        android:textStyle="italic"
+        android:id="@+id/t2"
+        android:layout_marginTop="310dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:id="@+id/t3"
+        android:layout_marginTop="30dp"
+        android:text="To know more "
+        android:textSize="21dp"
+        android:textColor="@color/teal_700"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here"
+        android:layout_below="@+id/t2"
+        android:id="@+id/link"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="170dp"
+        ></Button>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="back"
+    android:layout_below="@+id/t3"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="290dp"
+    android:id="@+id/back2"
+    ></Button>
+</RelativeLayout>
+</ScrollView>

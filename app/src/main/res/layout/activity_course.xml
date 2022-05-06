@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Course">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Online Courses: "
+        android:textColor="@color/black"
+        android:id="@+id/tc1"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="16dp"
+        android:textColor="@color/teal_700"
+
+        android:id="@+id/ct2"
+        android:text="         1. ஒரு முறை மட்டும் கட்டணம்."></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct3"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ct2"
+        android:text="          One time payment.\n"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct3"
+        android:textSize="18dp"
+        android:id="@+id/ct4"
+        android:textColor="@color/teal_700"
+        android:text="        2. எவ்வளவு காலம் / எவ்வளவு முறை
+    வேண்டுமானாலும் பயன்படுத்தி கொள்ளும் வசதி."
+   ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct5"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ct4"
+        android:text="          Life Time Access.\n"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct5"
+        android:textSize="18dp"
+        android:id="@+id/ct6"
+        android:textColor="@color/teal_700"
+        android:text="        3. கம்ப்யூட்டர், மொபைல் மற்றும் டிவியிலும் பயிற்சி மேற்கொள்ளலாம்."
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct7"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ct6"
+        android:text="          Access on Computer, Mobile and also TV.\n"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct7"
+        android:textSize="18dp"
+        android:id="@+id/ct8"
+        android:textColor="@color/teal_700"
+        android:text="       4.மிக குறைந்த கட்டணம்."
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct9"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ct8"
+        android:text="          Learn At very Minimum Fee.\n"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct9"
+        android:textSize="18dp"
+        android:id="@+id/ct10"
+        android:textColor="@color/teal_700"
+        android:text="      5. உங்கள் சந்தேகங்களுக்கு வாட்ஸ்அப் சேவை."
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct11"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ct10"
+        android:text="          Whatsapp Support (9940520121).\n"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct11"
+        android:textSize="18dp"
+        android:id="@+id/ct12"
+        android:textColor="@color/teal_700"
+        android:text="       6.பயிற்சி சலுகை கட்டணங்கள் உடிமியால் வழங்கபடுகிறது. கட்டண சலுகைகள் மாறுதலுக்கு உட்பட்டவை."
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct13"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ct12"
+        android:text="          Offers are given by udemy. It may be subject to change.\n"
+        ></TextView>
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Back"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="297dp"
+        android:id="@+id/back1"
+        ></Button>
+
+</RelativeLayout>
